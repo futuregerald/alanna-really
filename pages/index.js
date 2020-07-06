@@ -7,23 +7,10 @@ const Index = ({ posts, title, description, ...props }) => {
   return (
     <>
       <Layout pageTitle={title} description={description}>
-        <h1 className="title">Welcome to this demo blog!</h1>
-
-        <p className="description">
-          This is a simple blog built with Next, easily deployable on{' '}
-          <a href="https://url.netlify.com/r1j6ybSYU">Netlify</a>.
-        </p>
-        <main>
-          <PostList posts={posts} />
-        </main>
-        <p>
-          You can look at the repository for this project{' '}
-          <a href="https://github.com/cassidoo/next-netlify-blog-starter">
-            here
-          </a>
-          , and a tutorial on how to build it {` `}
-          <a href="https://url.netlify.com/ByVW0bCF8">here</a>.
-        </p>
+        <h1 className="title">Welcome to this ridiculous page that Alanna wanted.</h1>
+  <img src="https://vignette.wikia.nocookie.net/horrormovies/images/3/3e/HenryBowers.png/revision/latest?cb=20190312134628">
+    <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fvariety.com%2F2018%2Ffilm%2Fnews%2Fit-chapter-2-teach-grant-adult-henry-bowers-1202856265%2F&psig=AOvVaw1hSp2mVLxN7nHPSgvD6HpE&ust=1594152748369000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCIiQg_e3ueoCFQAAAAAdAAAAABAH">
+    <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.wattpad.com%2Fstory%2F160637288-henry-bowers-my-love%25F0%259F%2598%258D&psig=AOvVaw1hSp2mVLxN7nHPSgvD6HpE&ust=1594152748369000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCIiQg_e3ueoCFQAAAAAdAAAAABAN">
       </Layout>
       <style jsx>{`
         .title {
